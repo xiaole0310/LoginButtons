@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#3C3C3B"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+    <com.shaishavgandhi.loginbuttons.GooglePlusButton
+        android:layout_width="75dp"
+        android:id="@+id/google"
+        android:textAlignment="center"
+        app:iconSize="30dp"
+        android:layout_height="75dp"
+        >
+
+    </com.shaishavgandhi.loginbuttons.GooglePlusButton>
+
+    <com.shaishavgandhi.loginbuttons.FacebookButton
+        android:layout_width="75dp"
+        android:id="@+id/facebook"
+        app:iconSize="30dp"
+        android:layout_height="75dp"
+        >
+
+    </com.shaishavgandhi.loginbuttons.FacebookButton>
+
+    <com.shaishavgandhi.loginbuttons.TwitterButton
+        android:layout_width="75dp"
+        app:iconSize="30dp"
+        android:layout_height="75dp"
+        />
+
+        <com.shaishavgandhi.loginbuttons.LinkedInButton
+            android:layout_width="75dp"
+            app:iconSize="30dp"
+            android:layout_height="75dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.shaishavgandhi.loginbuttons.GooglePlusButton
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            app:iconSize="30dp"
+            app:transparentBackground="true"
+            android:layout_margin="5dp"
+            android:text="Sign in with Google"
+            android:layout_height="wrap_content"
+            >
+
+        </com.shaishavgandhi.loginbuttons.GooglePlusButton>
+
+        <com.shaishavgandhi.loginbuttons.FacebookButton
+            android:layout_width="match_parent"
+            android:text="Sign in with Facebook"
+            app:iconSize="30dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            >
+
+        </com.shaishavgandhi.loginbuttons.FacebookButton>
+
+        <com.shaishavgandhi.loginbuttons.TwitterButton
+            android:layout_width="match_parent"
+            app:iconSize="30dp"
+            android:layout_margin="5dp"
+            android:text="Sign in with Twitter"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp">
+
+        </com.shaishavgandhi.loginbuttons.TwitterButton>
+
+        <com.shaishavgandhi.loginbuttons.LinkedInButton
+            android:layout_width="match_parent"
+            app:iconSize="30dp"
+            android:layout_margin="5dp"
+            android:text="Sign in with LinkedIn"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp">
+
+        </com.shaishavgandhi.loginbuttons.LinkedInButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <com.shaishavgandhi.loginbuttons.GooglePlusButton
+            android:layout_width="75dp"
+            app:roundedCornerRadius="75dp"
+            app:roundedCorner="true"
+            android:layout_margin="2dp"
+            app:transparentBackground="true"
+            android:textAlignment="center"
+            app:iconSize="30dp"
+            android:layout_height="75dp"
+            />
+
+        <com.shaishavgandhi.loginbuttons.FacebookButton
+            android:layout_width="75dp"
+            app:roundedCornerRadius="75dp"
+            app:roundedCorner="true"
+            android:layout_margin="2dp"
+            app:transparentBackground="true"
+            android:textAlignment="center"
+            app:iconSize="30dp"
+            android:layout_height="75dp"
+            />
+
+        <com.shaishavgandhi.loginbuttons.TwitterButton
+            android:layout_width="75dp"
+            app:roundedCornerRadius="75dp"
+            app:roundedCorner="true"
+            android:layout_margin="2dp"
+            app:transparentBackground="true"
+            android:textAlignment="center"
+            app:iconSize="30dp"
+            android:layout_height="75dp"
+            />
+
+        <com.shaishavgandhi.loginbuttons.LinkedInButton
+            android:layout_width="75dp"
+            app:roundedCornerRadius="75dp"
+            app:roundedCorner="true"
+            android:layout_margin="2dp"
+            app:transparentBackground="true"
+            android:textAlignment="center"
+            app:iconSize="30dp"
+            android:layout_height="75dp"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.shaishavgandhi.loginbuttons.GooglePlusButton
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                app:iconSize="30dp"
+                android:layout_margin="5dp"
+                app:iconCenterAligned="false"
+                app:roundedCorner="true"
+                android:text="Sign in with Google"
+                android:layout_height="wrap_content"
+                >
+
+            </com.shaishavgandhi.loginbuttons.GooglePlusButton>
+
+            <com.shaishavgandhi.loginbuttons.FacebookButton
+                android:layout_width="match_parent"
+                android:text="Sign in with Facebook"
+                app:iconSize="30dp"
+                app:transparentBackground="true"
+                app:iconCenterAligned="false"
+                app:roundedCorner="true"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                >
+
+            </com.shaishavgandhi.loginbuttons.FacebookButton>
+
+            <com.shaishavgandhi.loginbuttons.TwitterButton
+                android:layout_width="match_parent"
+                app:iconSize="30dp"
+                app:roundedCorner="true"
+                app:iconCenterAligned="false"
+                android:layout_margin="5dp"
+                android:text="Sign in with Twitter"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp">
+
+            </com.shaishavgandhi.loginbuttons.TwitterButton>
+
+            <com.shaishavgandhi.loginbuttons.LinkedInButton
+                android:layout_width="match_parent"
+                app:iconSize="30dp"
+                app:roundedCorner="true"
+                app:iconCenterAligned="false"
+                android:layout_margin="5dp"
+                android:text="Sign in with LinkedIn"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp">
+
+            </com.shaishavgandhi.loginbuttons.LinkedInButton>
+
+        </LinearLayout>
+
+        <com.shaishavgandhi.loginbuttons.GooglePlusSlantButton
+            android:layout_width="match_parent"
+            android:text="Sign in with Google"
+            android:background="@drawable/bg"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
