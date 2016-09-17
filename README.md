@@ -5,7 +5,7 @@
 A simple library for building beautiful login buttons
 
 
-![Screenshot](https://github.com/shaishavgandhi05/LoginButtons/blob/master/screenshots/screenshot.png)
+![Screenshot](https://github.com/xiaole0310/LoginButtons/blob/master/screenshots/screenshot.png)
 
 ## Gradle
 
@@ -63,10 +63,10 @@ Every button has the following custom properties :
 
 * ``` app:iconSize="30dp" ``` value in dp
 * ``` app:iconPadding="30dp"``` value in dp
-* ``` app:iconCenterAligned="true/false" ``` icon center aligned by default. Set value ```false``` to set icon on left as shown [here](https://github.com/shaishavgandhi05/LoginButtons/blob/master/screenshots/regular_transparent.png)
+* ``` app:iconCenterAligned="true/false" ``` icon center aligned by default. Set value ```false``` to set icon on left as shown [here](https://github.com/xiaole0310/LoginButtons/blob/master/screenshots/regular_transparent.png)
 * ``` app:roundedCorner="true/false ``` Whether to set rounded corners. Default ```false```
 * ```app:roundedCornerRadius="30dp" ``` value in dp
-* ```app:transparentBackground="true/fasle``` Sets background to transparent and border to the color of the appropriate social media color. Examples [here](https://github.com/shaishavgandhi05/LoginButtons/blob/master/screenshots/circular_transparent.png) and [here](https://github.com/shaishavgandhi05/LoginButtons/blob/master/screenshots/regular_transparent.png) 
+* ```app:transparentBackground="true/fasle``` Sets background to transparent and border to the color of the appropriate social media color. Examples [here](https://github.com/xiaole0310/LoginButtons/blob/master/screenshots/circular_transparent.png) and [here](https://github.com/xiaole0310/LoginButtons/blob/master/screenshots/regular_transparent.png) 
 
 ## Mix and match
 
@@ -82,7 +82,7 @@ A popular example are **circular buttons**, like FAB for login. Using the proper
         android:layout_height="75dp"
         />
 ```
-In the above example, enabling roundedCorner and setting the width, height and roundedCornerRadius to the same value enables a circular button. Image [here](https://github.com/shaishavgandhi05/LoginButtons/blob/master/screenshots/circular.png)
+In the above example, enabling roundedCorner and setting the width, height and roundedCornerRadius to the same value enables a circular button. Image [here](https://github.com/xiaole0310/LoginButtons/blob/master/screenshots/circular.png)
 
 Another example is of **rounded corner** buttons :
 
@@ -97,11 +97,11 @@ Another example is of **rounded corner** buttons :
         android:layout_height="wrap_content"
         />
 ```
-Above code uses various properties to get a rounded corner button, with icon on the left. See [here](https://github.com/shaishavgandhi05/LoginButtons/blob/master/screenshots/regular_rounded.png)
+Above code uses various properties to get a rounded corner button, with icon on the left. See [here](https://github.com/xiaole0310/LoginButtons/blob/master/screenshots/regular_rounded.png)
   
 ## Examples
   
-### [Square Buttons](https://github.com/shaishavgandhi05/LoginButtons/blob/master/screenshots/square_button.png)
+### [Square Buttons](https://github.com/xiaole0310/LoginButtons/blob/master/screenshots/square_button.png)
   
   ```xml
   <com.shaishavgandhi.loginbuttons.GooglePlusButton
@@ -111,7 +111,7 @@ Above code uses various properties to get a rounded corner button, with icon on 
         />
   ```
   
-### [Square Transparent Buttons](https://github.com/shaishavgandhi05/LoginButtons/blob/master/screenshots/square_transparent.png)
+### [Square Transparent Buttons](https://github.com/xiaole0310/LoginButtons/blob/master/screenshots/square_transparent.png)
   ```xml
   <com.shaishavgandhi.loginbuttons.GooglePlusButton
         android:layout_width="75dp"
@@ -121,7 +121,7 @@ Above code uses various properties to get a rounded corner button, with icon on 
         />
 ```
     
-### [Transparent Circular Buttons](https://github.com/shaishavgandhi05/LoginButtons/blob/master/screenshots/circular_transparent.png)
+### [Transparent Circular Buttons](https://github.com/xiaole0310/LoginButtons/blob/master/screenshots/circular_transparent.png)
   ```xml
   <com.shaishavgandhi.loginbuttons.LinkedInButton
         android:layout_width="75dp"
