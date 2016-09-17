@@ -7,12 +7,6 @@ A simple library for building beautiful login buttons
 
 ![Screenshot](https://github.com/xiaole0310/LoginButtons/blob/master/screenshots/screenshot.png)
 
-## Gradle
-
-Add this in your dependencies block
-```groovy
-compile 'com.shaishavgandhi:login-buttons:0.1.1'
-```
 
 ## Basic Usage
 
