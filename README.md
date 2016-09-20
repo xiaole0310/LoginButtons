@@ -1,6 +1,6 @@
 # LoginButtons
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-LoginButtons-green.svg?style=true)](https://android-arsenal.com/details/1/4194)[ ![Download](https://api.bintray.com/packages/shaishgandhi/maven/login-buttons/images/download.svg) ](https://bintray.com/shaishgandhi/maven/login-buttons/_latestVersion)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-LoginButtons-green.svg?style=true)](https://github.com/xiaole0310/LoginButtons)[ ![Download](https://api.bintray.com/packages/shaishgandhi/maven/login-buttons/images/download.svg) ](https://github.com/xiaole0310/LoginButtons)
 
 A simple library for building beautiful login buttons
 
